@@ -14,8 +14,11 @@ alias gc='git commit'
 alias gd='git diff'
 alias gco='git checkout '
 
-/usr/bin/keychain --clear $HOME/.ssh/komp-doma
-source $HOME/.keychain/$HOSTNAME-sh
+# Call keychaing if definitions exists
+if [ -f ~/.keychain_defs ]; then
+    . ~/.keychain_defs
+fi
+
 
 # If not running interactively, don't do anything
 case $- in
