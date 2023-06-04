@@ -2,7 +2,7 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-alias python='/usr/local/bin/python3.9'
+alias p='/usr/local/bin/python3.9'
 
 alias c="clear"
 alias e="exit"
