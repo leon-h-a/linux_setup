@@ -1,5 +1,5 @@
 [user]
-	email = lekileo@gmail.com
-	name = leon-h-a
+#	email = lekileo@gmail.com
+#	name = leon-h-a
 [core]
 	editor = vim
