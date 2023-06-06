@@ -23,7 +23,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-" Plugin 'ycm-core/YouCompleteMe'
+Plugin 'ycm-core/YouCompleteMe'
 Plugin 'lervag/vimtex'
 Plugin 'aserebryakov/vim-todo-lists'
 call vundle#end()

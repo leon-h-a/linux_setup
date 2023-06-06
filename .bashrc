@@ -3,7 +3,6 @@
 # for examples
 
 alias p='/usr/local/bin/python3.9'
-
 alias c="clear"
 alias e="exit"
 
