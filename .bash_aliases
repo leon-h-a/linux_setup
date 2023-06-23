@@ -11,3 +11,4 @@ alias fila="cd ${BASE}OneDrive/projekti_2023/34-printing\ filament\ manufacturin
 alias todo="vim ${BASE}OneDrive/IntisEngineering/ie.todo.md"
 alias eks="vim ${BASE}OneDrive/projekti_2023/34-printing\ filament\ manufacturing/eks.todo.md"
 alias pos="cd ${BASE}OneDrive/Dokumenti/09-posao"
+alias gen="vim ${BASE}OneDrive/Dokumenti/04-proucavanja/general_fun_facts.txt"
