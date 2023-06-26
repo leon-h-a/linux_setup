@@ -5,6 +5,7 @@ else
 	BASE="/mnt/c/Users/Leon/"
 fi
 
+alias dt="cd ${BASE}Desktop"
 alias act="cd ${BASE}OneDrive/projekti_2021/3-autoCUT\ \(live\)/"
 alias osn="cd ${BASE}OneDrive/Dokumenti/06-osnovna"
 alias fila="cd ${BASE}OneDrive/projekti_2023/34-printing\ filament\ manufacturing"
