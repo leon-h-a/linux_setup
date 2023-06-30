@@ -13,6 +13,7 @@ alias gb='git branch '
 alias gc='git commit'
 alias gd='git diff'
 alias gco='git checkout '
+alias gaa='git add -A'
 # submodule git aliases
 alias gds='git diff --submodule'
 alias gss='git submodule summary'
