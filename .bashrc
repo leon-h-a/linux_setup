@@ -6,12 +6,16 @@ alias p='/usr/local/bin/python3.9'
 alias c="clear"
 alias e="exit"
 
+# default git aliases
 alias gs='clear && git status'
 alias ga='git add '
 alias gb='git branch '
 alias gc='git commit'
 alias gd='git diff'
 alias gco='git checkout '
+# submodule git aliases
+alias gds='git diff --submodule'
+alias gss='git submodule summary'
 
 # Call keychaing if definitions exists
 if [ -f ~/.keychain_defs ]; then
