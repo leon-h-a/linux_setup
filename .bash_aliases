@@ -14,3 +14,4 @@ alias eks="vim ${BASE}OneDrive/projekti_2023/34-printing\ filament\ manufacturin
 alias pos="cd ${BASE}OneDrive/Dokumenti/09-posao"
 alias gen="vim ${BASE}OneDrive/Dokumenti/04-proucavanja/general_fun_facts.txt"
 alias mba="vim ${BASE}OneDrive/Dokumenti/10-opce_knjige/ten_day_mba/ten_day_mba_notes.txt"
+alias ob="vim ${BASE}OneDrive/Dokumenti/10-opce_knjige/organisational_behavior/organisational_behavior_notes.txt"
