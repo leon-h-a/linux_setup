@@ -8,7 +8,7 @@ set colorcolumn=80
 iabbrev dot <c-v>u00b7
 
 " Personal shortcuts
-nmap qwer <leader>ekkO<ESC>:put=strftime('%A - %d.%m.%Y')<CR><leader>e$a<CR>
+nmap qwer <leader>e gg O <ESC>:put=strftime('%A - %d.%m.%Y')<CR><leader>e$a<CR>
 autocmd FileType tex inoremap tt <Esc>/<++><Enter>"_c4l
 
 " Vim settings
