@@ -17,6 +17,7 @@ alias mba="vim ${BASE}OneDrive/Dokumenti/10-opce_knjige/ten_day_mba/ten_day_mba_
 alias ob="vim ${BASE}OneDrive/Dokumenti/10-opce_knjige/organisational_behavior/organisational_behavior_notes.txt"
 alias myb="vim ${BASE}OneDrive/Dokumenti/10-opce_knjige/managing_your_boss/managing_your_boss_notes.txt"
 alias sah="vim ${BASE}OneDrive/Dokumenti/10-opce_knjige/sah.txt"
+alias gul="cd ${BASE}OneDrive/Dokumenti/12-gulugulu"
 
 # matematika
 alias m51="vim ${BASE}OneDrive/Dokumenti/06-osnovna/matematika5-1.txt"
