@@ -2,6 +2,8 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+eval "$(ssh-agent)"
+
 alias p='/usr/local/bin/python3.9'
 alias c="clear"
 alias e="exit"
@@ -17,12 +19,6 @@ alias gaa='git add -A'
 # submodule git aliases
 alias gds='git diff --submodule'
 alias gss='git submodule summary'
-
-# Call keychaing if definitions exists
-if [ -f ~/.keychain_defs ]; then
-    . ~/.keychain_defs
-fi
-
 
 # If not running interactively, don't do anything
 case $- in
