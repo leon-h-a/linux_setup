@@ -19,6 +19,9 @@ alias myb="vim ${BASE}OneDrive/Dokumenti/10-opce_knjige/managing_your_boss/manag
 alias sah="vim ${BASE}OneDrive/Dokumenti/10-opce_knjige/sah.txt"
 alias gul="cd ${BASE}OneDrive/Dokumenti/12-gulugulu"
 
+# Lampadine
+alias lamc="vim ${BASE}OneDrive/projekti_2022/24-lampadine/09-docs/USB\ specification/usb-c-notes.txt"
+
 # matematika
 alias m51="vim ${BASE}OneDrive/Dokumenti/06-osnovna/matematika5-1.txt"
 alias m52="vim ${BASE}OneDrive/Dokumenti/06-osnovna/matematika5-2.txt"
