@@ -2,7 +2,7 @@ set nocompatible
 filetype plugin on
 syntax on
 
-set colorcolumn=80
+set colorcolumn=49
 
 " Custom commands
 iabbrev dot <c-v>u00b7
@@ -21,12 +21,12 @@ filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
 
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'ycm-core/YouCompleteMe'
-Plugin 'lervag/vimtex'
-Plugin 'aserebryakov/vim-todo-lists'
-call vundle#end()
+"call vundle#begin()
+"Plugin 'VundleVim/Vundle.vim'
+"Plugin 'ycm-core/YouCompleteMe'
+"Plugin 'lervag/vimtex'
+"Plugin 'aserebryakov/vim-todo-lists'
+"call vundle#end()
 
 filetype plugin indent on
 " Vimtex settings
