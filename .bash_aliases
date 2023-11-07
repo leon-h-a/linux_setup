@@ -21,6 +21,7 @@ alias gul="cd ${BASE}OneDrive/Dokumenti/12-gulugulu"
 
 # Lampadine
 alias lamc="vim ${BASE}OneDrive/projekti_2022/24-lampadine/09-docs/USB\ specification/usb-c-notes.txt"
+alias lam="vim ${BASE}OneDrive/projekti_2022/24-lampadine/09-docs/learning.txt"
 
 # matematika
 alias m51="vim ${BASE}OneDrive/Dokumenti/06-osnovna/matematika5-1.txt"
