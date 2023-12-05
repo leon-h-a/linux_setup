@@ -18,6 +18,7 @@ alias ob="vim ${BASE}OneDrive/Dokumenti/10-opce_knjige/organisational_behavior/o
 alias myb="vim ${BASE}OneDrive/Dokumenti/10-opce_knjige/managing_your_boss/managing_your_boss_notes.txt"
 alias sah="vim ${BASE}OneDrive/Dokumenti/10-opce_knjige/sah.txt"
 alias gul="cd ${BASE}OneDrive/Dokumenti/12-gulugulu"
+alias pay="vim ${BASE}OneDrive/Dokumenti/09-posao/python.txt"
 
 # Lampadine
 alias lamc="vim ${BASE}OneDrive/projekti_2022/24-lampadine/09-docs/USB\ specification/usb-c-notes.txt"

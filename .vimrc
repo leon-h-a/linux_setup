@@ -1,8 +1,9 @@
 set nocompatible
 filetype plugin on
 syntax on
-
-set colorcolumn=49
+set laststatus=2
+set statusline=%!getcwd()
+set colorcolumn=80
 
 " Custom commands
 iabbrev dot <c-v>u00b7
@@ -21,12 +22,14 @@ filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
 
-"call vundle#begin()
+call vundle#begin()
+Plugin 'davidhalter/jedi-vim'
+Plugin 'preservim/nerdtree'
 "Plugin 'VundleVim/Vundle.vim'
 "Plugin 'ycm-core/YouCompleteMe'
 "Plugin 'lervag/vimtex'
 "Plugin 'aserebryakov/vim-todo-lists'
-"call vundle#end()
+call vundle#end()
 
 filetype plugin indent on
 " Vimtex settings
@@ -36,6 +39,7 @@ let g:vimtex_view_general_options_latexmk = '-reuse-instance'
 
 " Run VimtexComplete as soon as *.tex file is opened
 autocmd VimEnter *.tex :VimtexCompile
+autocmd VimEnter * NERDTree | wincmd p
 
 " Vim To-Do settings
 let g:VimTodoListsMoveItems = 0
