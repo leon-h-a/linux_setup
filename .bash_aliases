@@ -25,8 +25,14 @@ alias lamc="vim ${BASE}OneDrive/projekti_2022/24-lampadine/09-docs/USB\ specific
 alias lam="vim ${BASE}OneDrive/projekti_2022/24-lampadine/09-docs/learning.txt"
 
 # matematika
-alias m51="vim ${BASE}OneDrive/Dokumenti/06-osnovna/matematika5-1.txt"
-alias m52="vim ${BASE}OneDrive/Dokumenti/06-osnovna/matematika5-2.txt"
-alias m61="vim ${BASE}OneDrive/Dokumenti/06-osnovna/matematika6-1.txt"
-alias m62="vim ${BASE}OneDrive/Dokumenti/06-osnovna/matematika6-2.txt"
-alias sum="vim ${BASE}OneDrive/Dokumenti/06-osnovna/summary.txt"
+alias m51="vim ${BASE}OneDrive/Dokumenti/skripte/dokumenti/matematika/o_matematika_5-1.tex"
+alias m52="vim ${BASE}OneDrive/Dokumenti/skripte/dokumenti/matematika/o_matematika_5-2.tex"
+alias m62="vim ${BASE}OneDrive/Dokumenti/skripte/dokumenti/matematika/o_matematika_6-2.tex"
+alias m71="vim ${BASE}OneDrive/Dokumenti/skripte/dokumenti/matematika/o_matematika_7-1.tex"
+alias m72="vim ${BASE}OneDrive/Dokumenti/skripte/dokumenti/matematika/o_matematika_7-2.tex"
+
+# Fizika
+alias f7="vim ${BASE}OneDrive/Dokumenti/skripte/dokumenti/fizika/o_fizika_7.tex"
+
+# Kemiija
+alias k7="vim ${BASE}OneDrive/Dokumenti/skripte/dokumenti/kemija/o_kemija_7.tex"
