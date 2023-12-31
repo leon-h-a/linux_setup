@@ -6,7 +6,9 @@ set statusline=%!getcwd()
 set colorcolumn=80
 
 " Custom commands
-iabbrev dot <c-v>u00b7
+" iabbrev dot <c-v>u00b7
+" iabbrev in <c-v>u2208
+" iabbrev nin <c-v>u2209
 
 " Personal shortcuts
 nmap qwer <leader>e gg O <ESC>:put=strftime('%A - %d.%m.%Y')<CR><leader>e$a<CR>
@@ -24,10 +26,10 @@ set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
 Plugin 'davidhalter/jedi-vim'
-Plugin 'preservim/nerdtree'
+"Plugin 'preservim/nerdtree'
 "Plugin 'VundleVim/Vundle.vim'
 "Plugin 'ycm-core/YouCompleteMe'
-"Plugin 'lervag/vimtex'
+Plugin 'lervag/vimtex'
 "Plugin 'aserebryakov/vim-todo-lists'
 call vundle#end()
 
@@ -39,7 +41,9 @@ let g:vimtex_view_general_options_latexmk = '-reuse-instance'
 
 " Run VimtexComplete as soon as *.tex file is opened
 autocmd VimEnter *.tex :VimtexCompile
-autocmd VimEnter * NERDTree | wincmd p
+" Delete aux files after compilation
+map <F9> :!rm %:r.aux %:r.log %:r.fdb_latexmk %:r.fls %:r.synctex.gz
+"autocmd VimEnter * NERDTree | wincmd p
 
 " Vim To-Do settings
 let g:VimTodoListsMoveItems = 0
