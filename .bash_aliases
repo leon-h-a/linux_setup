@@ -30,6 +30,9 @@ alias dc="cd ${BASE}OneDrive/Dokumenti"
 # alias gul="cd ${BASE}OneDrive/Dokumenti/12-gulugulu"
 # alias pay="vim ${BASE}OneDrive/Dokumenti/09-posao/python.txt"
 
+# Posao
+alias zq="vim ${UCENJE}zeromq/dokumenti/zeromq/zeromq.tex"
+
 # Networks
 alias networks="vim ${UCENJE}networks/dokumenti/routers_switches_port_security/networks.tex"
 alias subnet="vim ${UCENJE}networks/dokumenti/subnetting/basics.tex"
