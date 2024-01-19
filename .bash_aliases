@@ -30,8 +30,11 @@ alias dc="cd ${BASE}OneDrive/Dokumenti"
 # alias gul="cd ${BASE}OneDrive/Dokumenti/12-gulugulu"
 # alias pay="vim ${BASE}OneDrive/Dokumenti/09-posao/python.txt"
 
+# Ostalo
+alias g24="vim ${UCENJE}/2024.txt"
+
 # Networks
-alias networks="vim ${UCENJE}networks/dokumenti/routers_switches_port_security/networks.tex"
+alias networks="vim ${UCENJE}networks/dokumenti/subnetting/basics.tex"
 alias subnet="vim ${UCENJE}networks/dokumenti/subnetting/basics.tex"
 
 # Lampadine
@@ -44,6 +47,7 @@ alias m52="vim ${UCENJE}skripte/dokumenti/matematika/o_matematika_5-2.tex"
 alias m62="vim ${UCENJE}skripte/dokumenti/matematika/o_matematika_6-2.tex"
 alias m71="vim ${UCENJE}skripte/dokumenti/matematika/o_matematika_7-1.tex"
 alias m72="vim ${UCENJE}skripte/dokumenti/matematika/o_matematika_7-2.tex"
+alias m81="vim ${UCENJE}skripte/dokumenti/matematika/o_matematika_8-1.tex"
 
 # Fizika
 alias f7="vim ${UCENJE}skripte/dokumenti/fizika/o_fizika_7.tex"
