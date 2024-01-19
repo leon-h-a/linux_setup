@@ -33,6 +33,9 @@ alias dc="cd ${BASE}OneDrive/Dokumenti"
 # Ostalo
 alias g24="vim ${UCENJE}/2024.txt"
 
+# Posao
+alias zq="vim ${UCENJE}zeromq/dokumenti/zeromq/zeromq.tex"
+
 # Networks
 alias networks="vim ${UCENJE}networks/dokumenti/subnetting/basics.tex"
 alias subnet="vim ${UCENJE}networks/dokumenti/subnetting/basics.tex"

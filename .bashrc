@@ -2,6 +2,12 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+function cdd(){
+	cd *$1*
+}
+
+export -f cdd
+
 eval "$(ssh-agent)"
 
 alias p='/usr/local/bin/python3.9'
