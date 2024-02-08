@@ -25,6 +25,7 @@ alias gaa='git add -A'
 # submodule git aliases
 alias gds='git diff --submodule'
 alias gss='git submodule summary'
+alias grs='git restore --staged'
 
 # If not running interactively, don't do anything
 case $- in
