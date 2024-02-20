@@ -25,6 +25,7 @@ eval "$(ssh-agent)"
 alias p='/usr/local/bin/python3.9'
 alias c="clear"
 alias e="exit"
+alias p="python3 "
 
 # default git aliases
 alias gs='clear && git status'
