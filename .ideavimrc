@@ -3,11 +3,12 @@
 " You can find a list of commands here: https://jb.gg/h38q75
 " Find more examples here: https://jb.gg/share-ideavimrc
 
-" Custom commands
-" copy this file to Win dir: C:\Users\<User>\.ideavimrc
 set shell=bash.exe
 set shellcmdflag=-c
 nnoremap <leader>ff :action GotoFile<CR>
+nmap <C-W> :action CloseEditor<CR>
+nmap <c-h> <Action>(PreviousTab)
+nmap <c-l> <Action>(NextTab)
 
 "" -- Suggested options --
 " Show a few lines of context around the cursor. Note that this makes the
@@ -37,3 +38,4 @@ Plug 'tpope/vim-commentary'
 
 "" Map \b to toggle the breakpoint on the current line
 "map \b <Action>(ToggleLineBreakpoint)
+
