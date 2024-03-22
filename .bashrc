@@ -22,10 +22,12 @@ export -f gen
 
 eval "$(ssh-agent)"
 
+# console specific
 alias p='/usr/local/bin/python3.9'
 alias c="clear"
 alias e="exit"
 alias p="python3 "
+alias nv="nvim ."
 
 # default git aliases
 alias gs='clear && git status'
