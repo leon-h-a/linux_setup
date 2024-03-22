@@ -14,9 +14,11 @@ set colorcolumn=80
 nmap qwer <leader>e gg O <ESC>:put=strftime('%A - %d.%m.%Y')<CR><leader>e$a<CR>
 autocmd FileType tex inoremap tt <Esc>/<++><Enter>"_c4l
 
-" Vim settings
+" Vim line numbers
 set number
-set relativenumber
+set nu
+call RltvNmbr#RltvNmbrCtrl(1)
+
 "
 " Vundle settings
 set nocompatible
@@ -31,6 +33,7 @@ Plugin 'davidhalter/jedi-vim'
 "Plugin 'ycm-core/YouCompleteMe'
 Plugin 'lervag/vimtex'
 "Plugin 'aserebryakov/vim-todo-lists'
+Plugin 'vim-scripts/RltvNmbr'
 call vundle#end()
 
 filetype plugin indent on
@@ -42,7 +45,7 @@ let g:vimtex_view_general_options_latexmk = '-reuse-instance'
 " Run VimtexComplete as soon as *.tex file is opened
 autocmd VimEnter *.tex :VimtexCompile
 " Delete aux files after compilation
-map <F9> :!rm %:r.aux %:r.log %:r.fdb_latexmk %:r.fls %:r.synctex.gz
+map <F9> :!rm %:r.aux %:r.log %:r.fdb_latexmk %:r.fls %:r.synctex.gz %:r.out
 "autocmd VimEnter * NERDTree | wincmd p
 
 " Vim To-Do settings
