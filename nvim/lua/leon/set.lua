@@ -26,6 +26,3 @@ vim.opt.colorcolumn = "80"
 
 -- Scrolling
 vim.opt.scrolloff = 8
-
--- Leader
-vim.g.mapleader = " "

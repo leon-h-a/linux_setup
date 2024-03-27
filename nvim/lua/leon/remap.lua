@@ -1,3 +1,6 @@
+-- Leader
+vim.g.mapleader = " "
+
 -- Exit from buffer, disable mouse actions
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 vim.opt.mouse = ""
