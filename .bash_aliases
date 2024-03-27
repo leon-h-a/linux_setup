@@ -14,7 +14,7 @@ fi
 
 # Moving around
 alias dt="cd ${BASE}Desktop"
-alias dc="cd ${BASE}OneDrive/Dokumenti"
+alias dc="cd ${BASE}OneDrive/Dokumenti/ucenje/main && nvim ."
 
 # alias act="cd ${BASE}OneDrive/projekti_2021/3-autoCUT\ \(live\)/"
 # alias osn="cd ${BASE}OneDrive/Dokumenti/06-osnovna"
