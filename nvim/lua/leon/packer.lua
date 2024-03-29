@@ -25,6 +25,7 @@ return require('packer').startup(function(use)
 	use('ThePrimeagen/harpoon')
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive')
+	use('alexghergh/nvim-tmux-navigation')
 
     use('lervag/vimtex')
 
