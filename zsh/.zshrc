@@ -7,10 +7,12 @@ fi
 
 # Personal settings
 EDITOR='vim'
-
 eval "$(ssh-agent)" >> /dev/null
-
 source ~/.zshenv
+
+# Add dirs to PATH
+# ttr (pypi console entry points)
+export PATH="/home/leon/.local/bin:$PATH"
 
 # console specific
 alias p='/usr/local/bin/python3.9'
