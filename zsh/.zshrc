@@ -5,6 +5,34 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+# Personal settings
+EDITOR='vim'
+
+eval "$(ssh-agent)" >> /dev/null
+
+# console specific
+alias p='/usr/local/bin/python3.9'
+alias c="clear"
+alias e="exit"
+alias p="python3 "
+alias nv="nvim ."
+alias ee="nvim "
+
+# default git aliases
+alias gs='clear && git status'
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit'
+alias gd='git diff'
+alias gco='git checkout '
+alias gaa='git add -A'
+
+# submodule git aliases
+alias gds='git diff --submodule'
+alias gss='git submodule summary'
+alias grs='git restore --staged'
+alias grr='git restore '
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
