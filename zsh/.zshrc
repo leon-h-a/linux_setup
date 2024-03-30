@@ -10,6 +10,8 @@ EDITOR='vim'
 
 eval "$(ssh-agent)" >> /dev/null
 
+source ~/.zshenv
+
 # console specific
 alias p='/usr/local/bin/python3.9'
 alias c="clear"
