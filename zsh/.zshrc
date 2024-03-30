@@ -35,6 +35,27 @@ alias gss='git submodule summary'
 alias grs='git restore --staged'
 alias grr='git restore '
 
+# Custom path aliases
+DIR="/mnt/c/Users/Leon.hergesic.adamov/Desktop/"
+if [ -d "$DIR" ]; then
+	BASE="/mnt/c/Users/Leon.hergesic.adamov/"
+else
+	BASE="/mnt/c/Users/Leon/"
+fi
+alias dt="cd ${BASE}Desktop"
+alias dc="cd ${BASE}OneDrive/Dokumenti/ucenje/main && nvim ."
+# matematika
+# alias m51="vim ${BASE}skripte/dokumenti/matematika/o_matematika_5-1.tex"
+# alias m52="vim ${BASE}skripte/dokumenti/matematika/o_matematika_5-2.tex"
+# alias m62="vim ${BASE}skripte/dokumenti/matematika/o_matematika_6-2.tex"
+# alias m71="vim ${BASE}skripte/dokumenti/matematika/o_matematika_7-1.tex"
+# alias m72="vim ${BASE}skripte/dokumenti/matematika/o_matematika_7-2.tex"
+# alias m81="vim ${BASE}skripte/dokumenti/matematika/o_matematika_8-1.tex"
+# # Fizika
+# alias f7="vim ${BASE}skripte/dokumenti/fizika/o_fizika_7.tex"
+# # Kemiija
+# alias k7="vim ${BASE}skripte/dokumenti/kemija/o_kemija_7.tex"
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
