@@ -26,3 +26,6 @@ vim.opt.colorcolumn = "80"
 
 -- Scrolling
 vim.opt.scrolloff = 8
+
+-- Cursor shape
+vim.opt.guicursor = "n-v-i-c:block-Cursor"
