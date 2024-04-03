@@ -13,7 +13,7 @@ vim.keymap.set("n", "<F9>", [[
     :! rm *.fdb_latexmk
 ]], { silent = true })
 
-vim.keymap.set("n", "afa", function()
+vim.keymap.set("n", "<leader>d", function()
     local ffp = vim.api.nvim_buf_get_name(0)
     local base = ffp:match("(.+)%..+$")
     local ext = {".aux", ".out", ".log", ".fls", ".synctex.gz", ".fdb_latexmk"}
