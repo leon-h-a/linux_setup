@@ -2,6 +2,7 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+EDITOR='vim'
 
 function cdd(){
 	cd *$1*
@@ -22,10 +23,12 @@ export -f gen
 
 eval "$(ssh-agent)"
 
+# console specific
 alias p='/usr/local/bin/python3.9'
 alias c="clear"
 alias e="exit"
 alias p="python3 "
+alias nv="nvim ."
 
 # default git aliases
 alias gs='clear && git status'
