@@ -28,6 +28,8 @@ return require('packer').startup(function(use)
 	use('alexghergh/nvim-tmux-navigation')
 
     use('lervag/vimtex')
+    use('tpope/vim-commentary')
+    use('preservim/nerdtree')
 
 	use {
 		'VonHeikemen/lsp-zero.nvim',
