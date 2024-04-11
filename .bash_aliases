@@ -1,3 +1,5 @@
+alias ras="ssh pi@192.168.1.107"
+
 DIR="/mnt/c/Users/Leon.hergesic.adamov/Desktop/"
 if [ -d "$DIR" ]; then
 	BASE="/mnt/c/Users/Leon.hergesic.adamov/"
