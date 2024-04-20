@@ -1,6 +1,7 @@
--- Fat cursor
+-- Cursor settings
 vim.opt.guicursor = ""
 vim.opt.cursorline = true
+vim.api.nvim_set_hl(0, "Cursor", {bg='red'})
 
 -- Line numbers
 vim.opt.nu = true
