@@ -30,6 +30,7 @@ return require('packer').startup(function(use)
     use('lervag/vimtex')
     use('tpope/vim-commentary')
     use('preservim/nerdtree')
+    use('tpope/vim-surround')
 
 	use {
 		'VonHeikemen/lsp-zero.nvim',
