@@ -16,3 +16,6 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 -- Search jumps w currsor at the middle
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
+
+-- Scroll past end of screen
+vim.keymap.set("n", "G", "Gzz")

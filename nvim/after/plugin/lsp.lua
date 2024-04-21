@@ -42,7 +42,7 @@ require('mason-lspconfig').setup({
     ensure_installed = {
         "lua_ls",
         "pylsp",
-        "cpplint"
+        "clangd",
     },
     automatic_installation = true,
     handlers = handlers

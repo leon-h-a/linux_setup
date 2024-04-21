@@ -124,6 +124,11 @@ _G.packer_plugins = {
     path = "/home/leon/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  nerdtree = {
+    loaded = true,
+    path = "/home/leon/.local/share/nvim/site/pack/packer/start/nerdtree",
+    url = "https://github.com/preservim/nerdtree"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/leon/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -170,10 +175,20 @@ _G.packer_plugins = {
     path = "/home/leon/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-commentary"] = {
+    loaded = true,
+    path = "/home/leon/.local/share/nvim/site/pack/packer/start/vim-commentary",
+    url = "https://github.com/tpope/vim-commentary"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/leon/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/leon/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
   },
   vimtex = {
     loaded = true,
