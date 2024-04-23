@@ -17,7 +17,7 @@ autocmd FileType tex inoremap tt <Esc>/<++><Enter>"_c4l
 " Vim line numbers
 set number
 set nu
-call RltvNmbr#RltvNmbrCtrl(1)
+" call RltvNmbr#RltvNmbrCtrl(1)
 
 "
 " Vundle settings
