@@ -13,6 +13,8 @@ source ~/.zshenv
 # Add dirs to PATH
 # ttr (pypi console entry points)
 export PATH="/home/leon/.local/bin:$PATH"
+# Neovim setup
+export PATH="$PATH:/opt/nvim-linux64/bin"
 
 # console specific
 alias p='/usr/local/bin/python3.9'
