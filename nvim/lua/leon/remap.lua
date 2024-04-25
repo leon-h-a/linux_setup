@@ -1,6 +1,9 @@
 -- Leader
 vim.g.mapleader = " "
 
+-- Save alias
+vim.keymap.set("n", "<leader>ss", ":w<CR>")
+
 -- Exit from buffer, disable mouse actions
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 vim.opt.mouse = ""
