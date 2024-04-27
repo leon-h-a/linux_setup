@@ -24,7 +24,6 @@ export -f gen
 eval "$(ssh-agent)"
 
 # console specific
-alias p='/usr/local/bin/python3.9'
 alias c="clear"
 alias e="exit"
 alias p="python3 "
@@ -38,10 +37,10 @@ alias gc='git commit'
 alias gd='git diff'
 alias gco='git checkout '
 alias gaa='git add -A'
+alias grs='git restore --staged'
 # submodule git aliases
 alias gds='git diff --submodule'
 alias gss='git submodule summary'
-alias grs='git restore --staged'
 
 # If not running interactively, don't do anything
 case $- in
