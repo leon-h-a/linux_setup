@@ -24,13 +24,14 @@ return require('packer').startup(function(use)
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 	use('ThePrimeagen/harpoon')
 	use('mbbill/undotree')
-	use('tpope/vim-fugitive')
+	-- use('tpope/vim-fugitive')
 	use('alexghergh/nvim-tmux-navigation')
 
     use('lervag/vimtex')
-    use('tpope/vim-commentary')
+    -- use('tpope/vim-commentary')
     use('preservim/nerdtree')
-    use('tpope/vim-surround')
+    -- use('tpope/vim-surround')
+    use('pechorin/any-jump.vim')
 
 	use {
 		'VonHeikemen/lsp-zero.nvim',
