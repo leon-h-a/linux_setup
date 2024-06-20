@@ -32,6 +32,7 @@ return require('packer').startup(function(use)
     use('preservim/nerdtree')
     -- use('tpope/vim-surround')
     use('pechorin/any-jump.vim')
+    use('tpope/vim-fugitive')
 
 	use {
 		'VonHeikemen/lsp-zero.nvim',
@@ -59,4 +60,21 @@ return require('packer').startup(function(use)
     use("L3MON4D3/LuaSnip") -- snippet engine
     use("saadparwaiz1/cmp_luasnip") -- for autocompletion
     use("rafamadriz/friendly-snippets") -- useful snippets
+
+    -- LeetCode plugin
+    use{
+        "kawre/leetcode.nvim",
+        run = ":TSUpdate html",
+        requires = {
+            "nvim-telescope/telescope.nvim",
+            "nvim-lua/plenary.nvim", -- required by telescope
+            "MunifTanjim/nui.nvim",
+
+            -- optional
+            "nvim-treesitter/nvim-treesitter",
+            "rcarriga/nvim-notify",
+            "nvim-tree/nvim-web-devicons",
+        },
+        entrypoint = "Leet",
+    }
 end)

@@ -1,0 +1,5 @@
+require("leetcode").setup()
+vim.keymap.set("n", "<leader>lr", function () vim.cmd("Leet run") end)
+vim.keymap.set("n", "<leader>ls", function () vim.cmd("Leet submit") end)
+vim.keymap.set("n", "<leader>ld", function () vim.cmd("Leet desc") end)
+vim.keymap.set("n", "<leader>ll", function () vim.cmd("Leet lang") end)
